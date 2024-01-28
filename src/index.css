@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body{
+  margin: 0;
+  padding-bottom: 500px;
+}
+
+section{
+  margin: 50px 0px 0px 100px;
+}
+
+.grey{
+  color: grey;
+}
+
+.navbar{
+  box-shadow: 0px 1px 5px rgb(203, 203, 203);
+}
+
+.navbar img{
+  width: 83px;
+  margin: 22px 0px 15px 30px;
+}
+
+.hero img{
+  width: 396px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.text{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  left: -40px;
+}
+
+.text h1{
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.text p{
+  font-weight: light;
+}
+
+.card{
+  width: 176px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  
+}
+
+.card-list{
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card-img > img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.status{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  font-size: 11px;
+  padding: 2px 5px;
+}
+
+.raitings{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.raitings > img{
+  width: 14px;
+  height: 14px;
+}
+
+.description p{
+  font-size: 14px;
+}
