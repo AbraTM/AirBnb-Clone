@@ -17,7 +17,7 @@ export default function Card(props){
             </div>
             <div className="description">
                 <div className="raitings">
-                    <img src="./images/star.png" alt=""></img>
+                    <img src={"./images/star.png"} alt=""></img>
                     <span>{props.item.stats.rating}</span>
                     <span className="grey">({props.item.stats.reviewCount}) •</span>
                     <span className="grey">{props.item.location}</span>
